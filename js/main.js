@@ -2,7 +2,7 @@ document.writeln("Make your password");
 
 document.getElementById("password").innerHTML = "Scegli una password sicura";
 
-console.log(" utile per debug");
+// console.log(" utile per debug");
 
 // scomposizione esercizio
 let nome = prompt("Quale è il tuo nome?");
@@ -17,6 +17,6 @@ let password = nome + cognome + colore + finepsw;
 
 console.log(password);
 
-window.alert(password)
+window.alert(password);
 
 
