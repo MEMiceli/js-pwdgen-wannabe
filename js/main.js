@@ -13,9 +13,10 @@ let colore = prompt("Quale è il tuo colore preferito?");
 
 const finepsw = 21;
 
-alert = ("nome" + "cognome" + "colore" + "finepsw");
+let password = nome + cognome + colore + finepsw;
 
-console.log("test")
+console.log(password);
 
+window.alert(password)
 
 
